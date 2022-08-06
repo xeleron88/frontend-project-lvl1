@@ -5,11 +5,8 @@ const getRandNum = (max, min = 1) => {
   return randNum;
 };
 
-const welcome = () => {
+const greetings = () => {
   console.log('Welcome to the Brain Games!');
-};
-
-const yourName = () => {
   const name = readlineSync.question('May I have your name?: ');
   console.log(`Hello, ${name}!`);
   return name;
@@ -33,7 +30,6 @@ const chekingAnswers = (name, BrainEvenLogic) => {
 
 export {
   getRandNum,
-  welcome,
-  yourName,
+  greetings,
   chekingAnswers,
 };

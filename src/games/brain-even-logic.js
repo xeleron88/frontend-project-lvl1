@@ -2,6 +2,7 @@ import readlineSync from 'readline-sync';
 import { getRandNum } from '../index.js';
 
 const BrainEvenLogic = () => {
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const answers = [];
   const randNum = getRandNum(100);
   let correctAnswer = '';
