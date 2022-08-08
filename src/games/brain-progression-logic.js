@@ -17,7 +17,6 @@ const BrainProgressionLogic = () => {
 
   progressionArr[numberReplace] = '..';
 
-  console.log('What number is missing in the progression?');
   console.log(`Question: ${progressionArr.join(' ')}`);
   const answer = readlineSync.question('Your answer: ');
 

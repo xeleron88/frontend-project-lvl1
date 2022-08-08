@@ -2,7 +2,6 @@ import readlineSync from 'readline-sync';
 import { getRandNum } from '../index.js';
 
 const BrainCalcLogic = () => {
-  console.log('What is the result of the expression?');
   const signs = ['+', '-', '*'];
   const sign = signs[getRandNum(3)];
   const randNum1 = getRandNum(30);
